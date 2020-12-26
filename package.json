@@ -8,7 +8,7 @@
     "gatsby"
   ],
   "scripts": {
-    "develop": "gatsby develop",
+    "dev": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
@@ -16,10 +16,12 @@
   },
   "license": "0BSD",
   "dependencies": {
+    "@types/theme-ui": "^0.3.7",
     "gatsby": "^2.26.1",
     "gatsby-plugin-theme-ui": "^0.3.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "theme-ui": "^0.3.5"
-  }
+  },
+  "devDependencies": {}
 }
